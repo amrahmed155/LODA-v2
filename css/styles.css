@@ -591,6 +591,7 @@ progress {
 }
 
 .list-unstyled {
+  /* text-align: left; */
   padding-left: 0;
   list-style: none;
 }
@@ -11754,7 +11755,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 /* Adjustments for larger screens */
 @media (min-width: 768px) {
   .modal-content {
-      width: 50%; /* Adjust width for larger screens */
+      /* width: 80%; Adjust width for larger screens */
   }
   .modal-image {
   width: auto!important;/* Ensure image fits within modal */
@@ -11796,4 +11797,5 @@ section#contact form#contactForm :-ms-input-placeholder {
 .modal-content p,
 .modal-content a {
   margin-bottom: 15px;
+  text-align: left;
 }
