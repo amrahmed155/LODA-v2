@@ -10905,6 +10905,7 @@ p {
   font-weight: 400;
   font-style: italic;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
@@ -11798,4 +11799,10 @@ section#contact form#contactForm :-ms-input-placeholder {
 .modal-content a {
   margin-bottom: 15px;
   text-align: left;
+}
+
+.btn-bold{
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-transform: uppercase;
 }

@@ -396,16 +396,16 @@ h1, h2, h3,
 
       .main-color{color: #4e2b22!important ;}
 
-      #responsive-img {
+      #responsive-img, .responsive-img {
         height: 6rem;
         width: 6.25rem;
       }
-      #responsive-img {
+      #responsive-img, .responsive-img {
         height: 6rem;
         width: 6.25rem;
         transition: height 0.3s ease-in-out;
       }
 
       @media (max-width:801px)  { 
-         #responsive-img{width:6.6rem; height:4rem}
+         #responsive-img, .responsive-img{width:6.6rem; height:4rem}
       }

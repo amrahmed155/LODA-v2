@@ -8,7 +8,7 @@
 // 
 
 function updateImageSrc() {
-    var img = document.getElementById('responsive-img');
+    var img = document.getElementsByClassName('responsive-img')[0];
     if (window.innerWidth <= 767) {
         img.src = 'assets/img/Leap of Dance Horizontal Logo.png';
     } else {
