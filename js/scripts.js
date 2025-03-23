@@ -9,10 +9,16 @@
 
 function updateImageSrc() {
     var img = document.getElementsByClassName('responsive-img')[0];
+    var footer_img = document.getElementsByClassName('footer-logos')[0];
+    var footer_img2 = document.getElementsByClassName('footer-logos')[1];
     if (window.innerWidth <= 767) {
         img.src = 'assets/img/Leap of Dance Horizontal Logo.png';
+        footer_img.style.width = '24vw';
+        footer_img2.style.width = '29vw';
     } else {
         img.src = 'assets/img/Leap of dance Logo Vertical.png';
+        footer_img.style.width = '11vw';
+        footer_img2.style.width = '14vw';
     }
 }
 
